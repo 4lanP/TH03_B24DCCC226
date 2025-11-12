@@ -1,0 +1,13 @@
+/* Simple global styles */
+:root{
+  --blue: #87CEEB;
+  --white: #ffffff;
+  --dark: #333333;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body,#root{height:100%}
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:var(--blue); color:var(--dark); -webkit-font-smoothing:antialiased}
+
+code{font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace}
+
